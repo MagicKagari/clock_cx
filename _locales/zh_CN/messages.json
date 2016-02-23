@@ -1,0 +1,58 @@
+{
+  "appName": {
+    "message": "健康时钟",
+    "description": "应用名称"
+   },
+  "appDesc": {
+    "message": "久坐族的福音，提醒你该运动啦！",
+    "description": "商店信息"
+  },
+  "headerValue":{
+    "message":"健康时钟",
+    "description": "header information in popup."
+  },
+  "start_infoValue":{
+    "message":"选择时间",
+    "description": "Info show at setting up timer."
+  },
+  "cancel_infoValue":{
+    "message":"现在的时间: ",
+    "description": "Info show at cleaning up timer."
+  },
+  "1mValue":{
+    "message":"1 分钟",
+    "description": "1 minute"
+  },
+  "10mValue":{
+    "message":"10 分钟",
+    "description": "10 minutes"
+  },
+  "15mValue":{
+    "message":"15 分钟",
+    "description": "15 minutes"
+  },
+  "20mValue":{
+    "message":"20 分钟",
+    "description": "20 minutes"
+  },
+  "30mValue":{
+    "message":"30 分钟",
+    "description": "30 minutes"
+  },
+  "startValue":{
+    "message":"开始计时",
+    "description": "start button"
+  },
+  "cancelValue":{
+    "message":"取消计时",
+    "description": "cancel button"
+  },
+  "notificationTitle":{
+    "message": "时间到啦",
+    "description": "notification title"
+  },
+  "notificationBody":{
+    "message": "主人该起来运动运动了呢！",
+    "description": "notification body"
+  }
+}

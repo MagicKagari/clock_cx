@@ -1,6 +1,7 @@
 {
-  "name": "Health Alarm",
-  "description": "Get up and exercise, do not sit too long.",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "zh_CN",
   "version": "1.0",
   "manifest_version": 2,
   "permissions": [ "notifications" ],

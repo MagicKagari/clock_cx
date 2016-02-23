@@ -5,22 +5,24 @@
   </head>
   <body>
     <div class="menu header" align="center">
-        <p>Health Clock</p>
+        <p id="header"></p>
     </div>
     <div class="menu text" align="center">
-      <p id="start_info">Pick a time</p>
+      <p id="start_info"></p>
       <p id="cancel_info"></p>
     </div>
     <div class="menu selector" align="center">
       <select id="times">
-        <option value="10min">10 min</option>
-        <option value="15min">15 min</option>
-        <option value="20min">20 min</option>
-        <option value="30min">30 min</option>
+        <option value="1m" id="1m"></option>
+        <option value="10m" id="10m"></option>
+        <option value="15m" id="15m"></option>
+        <option value="20m" id="20m"></option>
+        <option value="30m" id="30m"></option>
       </select>
     </div>
     <div class="menu" align="center">
-      <button id="start">Start</button>
+      <button id="start"></button>
+      <button id="cancel"></button>
     </div>
   </body>
 </html>

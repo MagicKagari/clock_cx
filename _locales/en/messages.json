@@ -1,0 +1,58 @@
+{
+  "appName": {
+    "message": "Health Alarm",
+    "description": "Application name."
+   },
+  "appDesc": {
+    "message": "Set up a timer to alarm you move around.",
+    "description": "Web store description."
+  },
+  "headerValue":{
+    "message":"Health Alarm",
+    "description": "header information in popup."
+  },
+  "start_infoValue":{
+    "message":"Pick a time",
+    "description": "Info show at setting up timer."
+  },
+  "cancel_infoValue":{
+    "message":"Current timer is: ",
+    "description": "Info show at cleaning up timer."
+  },
+  "1mValue":{
+    "message":"1 minute",
+    "description": "1 minute"
+  },
+  "10mValue":{
+    "message":"10 minutes",
+    "description": "10 minutes"
+  },
+  "15mValue":{
+    "message":"15 minutes",
+    "description": "15 minutes"
+  },
+  "20mValue":{
+    "message":"20 minutes",
+    "description": "20 minutes"
+  },
+  "30mValue":{
+    "message":"30 minutes",
+    "description": "30 minutes"
+  },
+  "startValue":{
+    "message":"Start timer",
+    "description": "start button"
+  },
+  "cancelValue":{
+    "message":"Cancel timer",
+    "description": "cancel button"
+  },
+  "notificationTitle":{
+    "message": "Get up",
+    "description": "notification title"
+  },
+  "notificationBody":{
+    "message": "time to move around and stretch",
+    "description": "notification body"
+  }
+}
