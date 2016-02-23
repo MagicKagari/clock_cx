@@ -1,9 +1,23 @@
 html {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 180px;
 }
 
 body {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 180px;
+}
+
+.menu {
+  height: 50px;
+  width: 150px;
+  margin: auto;
+}
+
+.header p {
+  font-size: 200%;
+}
+
+.text p {
+  font-size: 150%;
 }

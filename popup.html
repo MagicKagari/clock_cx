@@ -1,16 +1,26 @@
 <html>
-<body>
-
-<p>Pick a time</p>
-
-<select>
-    <option value="10min">10 min</option>
-    <option value="15min">15 min</option>
-    <option value="20min">20 min</option>
-    <option value="30min">30 min</option>
-</select>
-
-<button>Start</button>
-
-</body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script type="text/javascript" src="popup.js"></script>
+  </head>
+  <body>
+    <div class="menu header" align="center">
+        <p>Health Clock</p>
+    </div>
+    <div class="menu text" align="center">
+      <p id="start_info">Pick a time</p>
+      <p id="cancel_info"></p>
+    </div>
+    <div class="menu selector" align="center">
+      <select id="times">
+        <option value="10min">10 min</option>
+        <option value="15min">15 min</option>
+        <option value="20min">20 min</option>
+        <option value="30min">30 min</option>
+      </select>
+    </div>
+    <div class="menu" align="center">
+      <button id="start">Start</button>
+    </div>
+  </body>
 </html>
