@@ -8,10 +8,22 @@ body {
   width: 180px;
 }
 
+button {
+  font-size: 125%;
+}
+
 .menu {
   height: 50px;
   width: 150px;
   margin: auto;
+  margin-left:10px;
+  margin-right:0px;
+}
+
+select {
+  height: 50px;
+  width: 100px;
+  font-size: 200%;
 }
 
 .header p {

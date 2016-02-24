@@ -14,9 +14,9 @@ function setupView() {
   var times = document.getElementById("times");
 
   if (bg_page.is_timer_start) {
-    start_button.style.visibility = "hidden";
-    start_info.style.visibility = "hidden";
-    times.style.visibility = "hidden";
+    start_button.style.display = "none";
+    start_info.style.display = "none";
+    times.style.display = "none";
 
     var current_time = bg_page.current_timer;
     cancel_info.innerHTML = cancel_info.innerHTML + chrome.i18n.getMessage(current_time+"Value");
@@ -26,8 +26,8 @@ function setupView() {
       location.reload();
     };
   } else {
-    cancel_button.style.visibility = "hidden";
-    cancel_info.style.visibility = "hidden";
+    cancel_button.style.display = "none";
+    cancel_info.style.display = "none";
     start_button.onclick = function(){
       startTimer();
       location.reload();
