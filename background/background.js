@@ -63,7 +63,7 @@ function showNotification() {
         type: "basic",
         title: _title,
         message: _body,
-        iconUrl: "/img/icon.png"
+        iconUrl: "/img/128.png"
       };
       chrome.notifications.create(opt);
     });

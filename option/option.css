@@ -1,0 +1,29 @@
+div {
+  width: 200px;
+  height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.c {
+  font-size: 200%;
+}
+
+.c input {
+   font-size: 100%;
+   width: 400px;
+   height: 30px;
+}
+
+.btn p {
+  color: red;
+}
+
+.btn button {
+  font-size: 125%;
+  width: 150px;
+  height: 50px;
+}
