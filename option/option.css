@@ -1,3 +1,7 @@
+html {
+  background: #f0f0f5;
+}
+
 div {
   width: 200px;
   height: 100px;
@@ -8,13 +12,13 @@ div {
   margin: auto;
 }
 
-.c {
+#custom_info {
   font-size: 200%;
 }
 
 .c input {
    font-size: 100%;
-   width: 400px;
+   width: 200px;
    height: 30px;
 }
 

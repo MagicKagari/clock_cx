@@ -1,6 +1,7 @@
 html {
   height: 200px;
   width: 180px;
+  background: #f0f0f5;
 }
 
 body {
@@ -32,4 +33,5 @@ select {
 
 .text p {
   font-size: 150%;
+  background: #ffffff;
 }
