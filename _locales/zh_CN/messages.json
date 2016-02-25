@@ -16,7 +16,7 @@
     "description": "Info show at setting up timer."
   },
   "cancel_infoValue":{
-    "message":"现在的时间: ",
+    "message":"现在的时间:<br>",
     "description": "Info show at cleaning up timer."
   },
   "1mValue":{
@@ -54,5 +54,30 @@
   "notificationBody":{
     "message": "主人该起来运动运动了呢！",
     "description": "notification body"
+  },
+  "popupOptionValue":{
+    "message": "设置",
+    "description": "popup option info"
+  },
+  "optionTitle":{
+    "message": "健康时钟设置",
+    "description": "option page title"
+  },
+  "optionCustomInfoValue":{
+    "message": "自定义提醒",
+    "description": "option custom info value"
+  },
+  "optionStatus":{
+    "message": "设置成功",
+    "description": "show option status"
+  },
+  "optionSaveButton":{
+    "message": "设置",
+    "description": "option save button"
+  },
+
+  "none":{
+    "message": "",
+    "description": "put here just I don't forget the comma"
   }
 }

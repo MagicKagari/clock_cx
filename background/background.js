@@ -51,12 +51,20 @@ function cleanTimer() {
 
 function showNotification() {
     var _title = chrome.i18n.getMessage("notificationTitle");
-    var _body = chrome.i18n.getMessage("notificationBody");
-    var opt = {
+    chrome.storage.sync.get("custom_text", function(items){
+      var _body;
+      if(items.custom_text == "undefined"){
+        _body = chrome.i18n.getMessage("notificationBody");
+      }else{
+        _body = items.custom_text;
+      }
+
+      var opt = {
         type: "basic",
         title: _title,
         message: _body,
-        iconUrl: "icon.png"
-    }
-    chrome.notifications.create(opt);
+        iconUrl: "/img/icon.png"
+      };
+      chrome.notifications.create(opt);
+    });
 }

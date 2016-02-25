@@ -4,14 +4,14 @@
   "default_locale": "zh_CN",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": [ "notifications" ],
+  "permissions": [ "notifications", "storage" ],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "scripts": ["background/background.js"]
   },
+  "options_page": "option/option.html",
   "browser_action": {
-    "default_icon" : "icon.png",
+    "default_icon" : "img/icon.png",
     "default_title": "Health Alarm",
-    "default_popup": "popup.html"
+    "default_popup": "popup/popup.html"
   }
 }

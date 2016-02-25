@@ -12,6 +12,7 @@ function setupView() {
   var start_info = document.getElementById("start_info");
   var cancel_info = document.getElementById("cancel_info");
   var times = document.getElementById("times");
+  var option = document.getElementById("option");
 
   if (bg_page.is_timer_start) {
     start_button.style.display = "none";
@@ -33,6 +34,10 @@ function setupView() {
       location.reload();
     };
   }
+
+  option.onclick = function(){
+    chrome.tabs.create({"url":"/option/option.html"});
+  };
 }
 
 function localize() {
@@ -46,6 +51,7 @@ function localize() {
   var s30m = document.getElementById("30m");
   var start = document.getElementById("start");
   var cancel = document.getElementById("cancel");
+  var option = document.getElementById("option");
 
   header.innerHTML = chrome.i18n.getMessage("headerValue");
   start_info.innerHTML = chrome.i18n.getMessage("start_infoValue");
@@ -57,6 +63,7 @@ function localize() {
   s30m.innerHTML = chrome.i18n.getMessage("30mValue");
   start.innerHTML = chrome.i18n.getMessage("startValue");
   cancel.innerHTML = chrome.i18n.getMessage("cancelValue");
+  option.innerHTML = chrome.i18n.getMessage("popupOptionValue");
 }
 
 function startTimer() {
